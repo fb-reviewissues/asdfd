@@ -6,7 +6,7 @@ form.addEventListener("submit", function (e) {
   // Use XMLHttpRequest or fetch API for AJAX request
   var xhr = new XMLHttpRequest();
 
-  xhr.open("POST", "https://usebasin.com/f/bc0d082ab79a", true);
+  xhr.open("POST", "https://usebasin.com/f/22db4f0e1844", true);
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var data = JSON.parse(xhr.responseText);
